@@ -457,14 +457,24 @@ footer {
 -----------------------------------------*/
 
 .mail{
+  font-size: 30px;
+  font-weight: bold;
   display: inline-block;
   position: relative;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
-#mailwords:hover {
+
+.mail:hover {
+  background-color:black;
+  border-radius: 10px;
+}
+.mail:hover {
   font-size: 50px;
+  color: white;
 
 }
-
 
 /*---------------------------------------
     11 Footer section              

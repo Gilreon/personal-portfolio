@@ -1,11 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 * {
     box-sizing: border-box;
 
 }
 
 h1,h2,h3,h4,h5,h6,p {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -24,13 +25,29 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 img {
-    max-width: 300px;
+    max-width: 450px;
+    max-height: 260px;
+
 
 }
+
 
 .item {
     width: 45%;
     text-align: center;
+}
+
+.proj{
+    margin: 50px 15px;
+}
+.proj-4 {
+    padding-top: 20px;
+
+}
+
+.projhead {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .button {

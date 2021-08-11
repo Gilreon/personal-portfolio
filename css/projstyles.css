@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p {
 img {
     max-width: 450px;
     max-height: 260px;
-
+    border: 5px solid black;
 
 }
 
@@ -39,9 +39,17 @@ img {
 
 .proj{
     margin: 50px 15px;
+    
 }
 .proj-4 {
-    padding-top: 20px;
+    padding-top: 1px;
+    border: 5px solid black;
+    
+}
+
+.proj-6 {
+    border: 5px solid black;
+    padding: 1px;
 
 }
 
@@ -127,17 +135,25 @@ div .item {
     }
     
 
+
     .img {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
     }
 
     img.proj {
         margin: 45px;
+        
+    }
+
+    .img.proj-6 {
+        width:100%;
+        height: 100%;
 
     }
+
     img.proj-5 {
         margin: 45px;
         padding: 10px;

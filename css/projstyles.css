@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p {
 img {
     max-width: 450px;
     max-height: 260px;
-    border: 5px solid black;
+    
 
 }
 
@@ -41,14 +41,20 @@ img {
     margin: 50px 15px;
     
 }
+
+.proj-1 {
+    width: 100%;
+
+}
+
 .proj-4 {
     padding-top: 1px;
-    border: 5px solid black;
+    
     
 }
 
 .proj-6 {
-    border: 5px solid black;
+    
     padding: 1px;
 
 }
